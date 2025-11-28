@@ -1,0 +1,17 @@
+### Register User
+POST http://localhost:8084/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "pass"
+}
+
+### Login User
+POST http://localhost:8084/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "pass"
+}
