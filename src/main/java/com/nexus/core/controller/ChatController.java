@@ -109,13 +109,16 @@ public class ChatController {
         if (!userService.checkCredentials(requester, password))
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid Password.");
 
-        // if clearing group chat then check whether user is part of group
-        if (isGroup && !chatService.isGroupMember(otherUser, requester))
-            return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Not a member of this group.");
+        if(userService.isLoggedIn(requester)){
+            // if clearing group chat then check whether user is part of group
+            if (isGroup && !chatService.isGroupMember(otherUser, requester))
+                return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Not a member of this group.");
 
-        boolean done = chatService.clearChat(requester, otherUser, isGroup);
-        if (done) return ResponseEntity.ok("Chat cleared for " + requester);
-        else return ResponseEntity.badRequest().body("Chat not found");
+            boolean done = chatService.clearChat(requester, otherUser, isGroup);
+            if (done) return ResponseEntity.ok("Chat cleared for " + requester);
+            else return ResponseEntity.badRequest().body("Chat not found");
+        }
+        else return ResponseEntity.badRequest().body("Requester is not logged in");
     }
 
     @DeleteMapping("/delete-message")
