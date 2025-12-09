@@ -157,20 +157,20 @@ No configuration required, although you can modify in `src/main/resources/applic
 - Anyone can join group without needing approval from admin
 
 ## Credits
-### Kulshresth (IMT2024065)
+### 1. Kulshresth (IMT2024065)
 - Team Leader
 - a
 - b
 - c
-### Pranav Goyal (BT2024086)
+### 2. Pranav Goyal (BT2024086)
 - a
 - b
 - c
-### Hrishabh Sharrma (BT2024070)
+### 3. Hrishabh Sharrma (BT2024070)
 - a
 - b
 - c
-### Aksha Alkesh Jain (BT2024015)
+### 4. Aksha Alkesh Jain (BT2024015)
 - a
 - b
 - c
