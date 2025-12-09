@@ -8,7 +8,8 @@ Nexus App is a minimal, backend-only chat platform built using Spring Boot. It i
 - [Screenshots / Demo](#screenshots--demo)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage and API Reference](#usage-and-api-reference)
+- [Usage](#usage)
+- [API Reference](#api-reference)
 - [Roadmap / Future Improvements](#roadmap--future-improvements)
 - [Known Issues](#known-issues)
 - [Credits](#credits)
@@ -114,21 +115,35 @@ Check which port it runs on, and then open the URL `http://localhost:<port_numbe
 ## Configuration
 No configuration required, although you can modify in `src/main/resources/application.properties`: `server.port=8084`. This allows you to run it on the URL `http://localhost:8084` always.
 
-## Usage and API Reference
-Open Swagger UI at `http://localhost:<port_number>/swagger-ui/index.html`
-Try out the following commands:
-- Register as a new user:        `POST /api/auth/register`
-- Login:                         `POST /api/auth/login`
-- Logout:                        `POST /api/auth/logout`
-- Delete an existing user:       `DELETE /api/auth/delete`
-- Send a direct message:         `POST /api/chat/send`
-- Send a group message:          `POST /api/chat/group/send`
-- Join a group:                  `POST /api/chat/group/join`
-- Create a new group:            `POST /api/chat/group/create`
-- Retrieve DM history:           `GET /api/chat/history`
-- Retrieve group history:        `GET /api/chat/group/history`
-- Delete a message for everyone: `DELETE /api/chat/delete-message`
-- Clear chat for the requester:  `DELETE /api/chat/clear-chat`
+## Usage
+- Open Swagger UI at `http://localhost:<port_number>/swagger-ui/index.html`
+- Try out the commands according to the API Reference table.
+
+## API Reference
+### Auth Endpoints (`/api/auth`)
+| Method | Endpoint      | Description                  |
+|--------|---------------|------------------------------|
+| POST   | `/register`   | Register a new user          |
+| POST   | `/login`      | Login user (session tracked) |
+| POST   | `/logout`     | Logout user                  |
+| DELETE | `/delete`     | Delete user account          |
+
+### Direct Messaging (`/api/chat/group`)
+| Method | Endpoint            | Description                                     |
+|--------|---------------------|-------------------------------------------------|
+| POST   | `/send`             | Send direct message                             |
+| GET    | `/history`          | Get chat history (requires password + login)    |
+| DELETE | `/clear-chat`       | Clear chat for the requester                    |
+| DELETE | `/delete-message`   | Delete a specific message for everyone          |
+
+### Group Messaging (`/api/chat/group`)
+| Method | Endpoint       | Description                     |
+|--------|----------------|---------------------------------|
+| POST   | `/create`      | Create a new group              |
+| POST   | `/join`        | Join an existing group          |
+| POST   | `/send`        | Send a message to a group       |
+| GET    | `/history`     | View group chat history         |
+
 
 ## Roadmap / Future Improvements
 - Typing indicators, online status
