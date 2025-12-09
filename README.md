@@ -157,23 +157,23 @@ No configuration required, although you can modify in `src/main/resources/applic
 - Anyone can join group without needing approval from admin
 
 ## Credits
-- Kulshresth (IMT2024065)
- - Team Leader
- - a
- - b
- - c
-- Pranav Goyal (BT2024086)
- - a
- - b
- - c
-- Hrishabh Sharrma (BT2024070)
- - a
- - b
- - c
-- Aksha Alkesh Jain (BT2024015)
- - a
- - b
- - c
+### Kulshresth (IMT2024065)
+- Team Leader
+- a
+- b
+- c
+### Pranav Goyal (BT2024086)
+- a
+- b
+- c
+### Hrishabh Sharrma (BT2024070)
+- a
+- b
+- c
+### Aksha Alkesh Jain (BT2024015)
+- a
+- b
+- c
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
