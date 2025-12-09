@@ -107,8 +107,11 @@ public class ChatController {
         if (!chatService.isGroupMember(groupName, requester))
             return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Not a member of this group.");
 
-        List<Message> history = chatService.getHistory(requester, groupName, true);
-        return ResponseEntity.ok(history);
+        if(userService.isLoggedIn(requester)){
+            List<Message> history = chatService.getHistory(requester, groupName, true);
+            return ResponseEntity.ok(history);
+        }
+        else return ResponseEntity.badRequest().body("Requester is not logged in");
     }
 
     // Deletions
