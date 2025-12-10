@@ -155,23 +155,20 @@ No configuration required, although you can modify in `src/main/resources/applic
 - File transfer of images, videos, etc.
 
 ## Credits
+All four people recorded different parts of the video, which were merged together in the end. The voiceover was done by Kulshresth.
+
 ### 1. Kulshresth (IMT2024065)
-- Team Leader
-- a
-- b
-- c
+- Group Leader
+- AuthController.java
+- Message.java
+- User.java
 ### 2. Pranav Goyal (BT2024086)
-- a
-- b
-- c
+- UserService.java
+- Created the README
 ### 3. Hrishabh Sharrma (BT2024070)
-- a
-- b
-- c
+- ChatController.java
 ### 4. Aksha Alkesh Jain (BT2024015)
-- a
-- b
-- c
+- ChatService.java
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
