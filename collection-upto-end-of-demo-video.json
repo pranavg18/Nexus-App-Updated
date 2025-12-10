@@ -1,0 +1,1802 @@
+{
+	"info": {
+		"_postman_id": "faadd8b6-7b8e-41d0-b183-8e24467b4cf0",
+		"name": "My Collection",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50057797",
+		"_collection_link": "https://kulshresth-e2aecf55-2357071.postman.co/workspace/Kulshresth's-Workspace~aa997755-5a3f-4359-8626-75adf208a7f9/collection/50057797-faadd8b6-7b8e-41d0-b183-8e24467b4cf0?action=share&source=collection_link&creator=50057797"
+	},
+	"item": [
+		{
+			"name": "localhost:8084/api/auth/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"string\",\n  \"password\": \"string\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/auth/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"kullu\",\n  \"password\": \"kullu@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/register",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:34:21 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "User registered successfully"
+				},
+				{
+					"name": "localhost:8084/api/auth/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"aksha\",\n  \"password\": \"aksha@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/register",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:34:36 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "User registered successfully"
+				},
+				{
+					"name": "localhost:8084/api/auth/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"rishu\",\n  \"password\": \"rishu@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/register",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:34:52 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "User registered successfully"
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"string\",\n  \"password\": \"string\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/auth/login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"kullu\",\n  \"password\": \"kullu@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "16"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:35:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Login successful"
+				},
+				{
+					"name": "localhost:8084/api/auth/login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"aksha\",\n  \"password\": \"aksha@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "16"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:35:25 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Login successful"
+				},
+				{
+					"name": "localhost:8084/api/auth/login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"rishu\",\n  \"password\": \"rishu@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "16"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:35:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Login successful"
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/auth/logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/auth/logout?username=",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"auth",
+						"logout"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/auth/delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"string\",\n  \"password\": \"string\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/auth/delete",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"auth",
+						"delete"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/auth/delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"rishu\",\n  \"password\": \"rishu@123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/auth/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"auth",
+								"delete"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "25"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:49:17 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "User deleted successfully"
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/chat/send",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sender\": \"string\",\n    \"recipient\": \"string\",\n    \"message\": \"string\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/chat/send",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/chat/group/send",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"sender\": \"string\",\n  \"recipient\": \"string\",\n  \"message\": \"string\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/chat/group/send",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"group",
+						"send"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/chat/group/send",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"sender\": \"kullu\",\n  \"recipient\": \"MyGroup\",\n  \"message\": \"hello, wlcm to my grp\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/chat/group/send",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"send"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:39:08 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Group message sent"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/send",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"sender\": \"aksha\",\n  \"recipient\": \"MyGroup\",\n  \"message\": \"hello\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/chat/group/send",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"send"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:39:41 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Group message sent"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/send",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"sender\": \"rishu\",\n  \"recipient\": \"MyGroup\",\n  \"message\": \"hi\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/chat/group/send",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"send"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:40:06 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Group message sent"
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/chat/group/join",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/chat/group/join?groupName&username",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"group",
+						"join"
+					],
+					"query": [
+						{
+							"key": "groupName",
+							"value": null
+						},
+						{
+							"key": "username",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/chat/group/join",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/chat/group/join?groupName=MyGroup&username=aksha",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"join"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "username",
+									"value": "aksha"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:37:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Joined group MyGroup"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/join",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/chat/group/join?groupName=MyGroup&username=rishu",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"join"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "username",
+									"value": "rishu"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "20"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:37:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Joined group MyGroup"
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/chat/group/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/chat/group/create?groupName&creator",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"group",
+						"create"
+					],
+					"query": [
+						{
+							"key": "groupName",
+							"value": null
+						},
+						{
+							"key": "creator",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/chat/group/create",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/chat/group/create?groupName=MyGroup&creator=kullu",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"create"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "creator",
+									"value": "kullu"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "22"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:36:29 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Group MyGroup created."
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/chat/history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8084/api/chat/history?requester&otherUser&password",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"history"
+					],
+					"query": [
+						{
+							"key": "requester",
+							"value": null
+						},
+						{
+							"key": "otherUser",
+							"value": null
+						},
+						{
+							"key": "password",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/chat/group/history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8084/api/chat/group/history?groupName&requester&password",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"group",
+						"history"
+					],
+					"query": [
+						{
+							"key": "groupName",
+							"value": null
+						},
+						{
+							"key": "requester",
+							"value": null
+						},
+						{
+							"key": "password",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=aksha&password=aksha@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "aksha"
+								},
+								{
+									"key": "password",
+									"value": "aksha@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:41:30 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"sender\": \"kullu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello, wlcm to my grp\",\n        \"timestamp\": \"Dec 10, 2025 16:09:08\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"aksha\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello\",\n        \"timestamp\": \"Dec 10, 2025 16:09:41\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"rishu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hi\",\n        \"timestamp\": \"Dec 10, 2025 16:10:06\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    }\n]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=kullu&password=kullu@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "kullu"
+								},
+								{
+									"key": "password",
+									"value": "kullu@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:42:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"sender\": \"kullu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello, wlcm to my grp\",\n        \"timestamp\": \"Dec 10, 2025 16:09:08\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"aksha\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello\",\n        \"timestamp\": \"Dec 10, 2025 16:09:41\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"rishu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hi\",\n        \"timestamp\": \"Dec 10, 2025 16:10:06\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    }\n]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=kullu&password=kullu@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "kullu"
+								},
+								{
+									"key": "password",
+									"value": "kullu@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:44:41 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"sender\": \"kullu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"🚫 This message was deleted\",\n        \"timestamp\": \"Dec 10, 2025 16:09:08\",\n        \"deletedForEveryone\": true,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"aksha\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello\",\n        \"timestamp\": \"Dec 10, 2025 16:09:41\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"rishu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hi\",\n        \"timestamp\": \"Dec 10, 2025 16:10:06\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    }\n]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=aksha&password=aksha@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "aksha"
+								},
+								{
+									"key": "password",
+									"value": "aksha@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:45:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"sender\": \"kullu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"🚫 This message was deleted\",\n        \"timestamp\": \"Dec 10, 2025 16:09:08\",\n        \"deletedForEveryone\": true,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"aksha\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello\",\n        \"timestamp\": \"Dec 10, 2025 16:09:41\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"rishu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hi\",\n        \"timestamp\": \"Dec 10, 2025 16:10:06\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [],\n        \"groupMessage\": true\n    }\n]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=aksha&password=aksha@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "aksha"
+								},
+								{
+									"key": "password",
+									"value": "aksha@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:47:47 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=kullu&password=kullu@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "kullu"
+								},
+								{
+									"key": "password",
+									"value": "kullu@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:48:16 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"sender\": \"kullu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"🚫 This message was deleted\",\n        \"timestamp\": \"Dec 10, 2025 16:09:08\",\n        \"deletedForEveryone\": true,\n        \"hiddenFor\": [\n            \"aksha\"\n        ],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"aksha\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello\",\n        \"timestamp\": \"Dec 10, 2025 16:09:41\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [\n            \"aksha\"\n        ],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"rishu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hi\",\n        \"timestamp\": \"Dec 10, 2025 16:10:06\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [\n            \"aksha\"\n        ],\n        \"groupMessage\": true\n    }\n]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=kullu&password=kullu@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "kullu"
+								},
+								{
+									"key": "password",
+									"value": "kullu@123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:50:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"sender\": \"kullu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"🚫 This message was deleted\",\n        \"timestamp\": \"Dec 10, 2025 16:09:08\",\n        \"deletedForEveryone\": true,\n        \"hiddenFor\": [\n            \"aksha\"\n        ],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"aksha\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hello\",\n        \"timestamp\": \"Dec 10, 2025 16:09:41\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [\n            \"aksha\"\n        ],\n        \"groupMessage\": true\n    },\n    {\n        \"sender\": \"rishu\",\n        \"recipient\": \"MyGroup\",\n        \"message\": \"hi\",\n        \"timestamp\": \"Dec 10, 2025 16:10:06\",\n        \"deletedForEveryone\": false,\n        \"hiddenFor\": [\n            \"aksha\"\n        ],\n        \"groupMessage\": true\n    }\n]"
+				},
+				{
+					"name": "localhost:8084/api/chat/group/history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/group/history?groupName=MyGroup&requester=rishu&password=rishu@123",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"group",
+								"history"
+							],
+							"query": [
+								{
+									"key": "groupName",
+									"value": "MyGroup"
+								},
+								{
+									"key": "requester",
+									"value": "rishu"
+								},
+								{
+									"key": "password",
+									"value": "rishu@123"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "17"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:50:49 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Invalid Password."
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/chat/delete-message",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8084/api/chat/delete-message?sender&recipient&timestamp&password&isGroup=false",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"delete-message"
+					],
+					"query": [
+						{
+							"key": "sender",
+							"value": null
+						},
+						{
+							"key": "recipient",
+							"value": null
+						},
+						{
+							"key": "timestamp",
+							"value": null
+						},
+						{
+							"key": "password",
+							"value": null
+						},
+						{
+							"key": "isGroup",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/chat/delete-message",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/delete-message?sender=kullu&recipient=MyGroup&timestamp=Dec 10, 2025 16:09:08&password=kullu@123&isGroup=true",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"delete-message"
+							],
+							"query": [
+								{
+									"key": "sender",
+									"value": "kullu"
+								},
+								{
+									"key": "recipient",
+									"value": "MyGroup"
+								},
+								{
+									"key": "timestamp",
+									"value": "Dec 10, 2025 16:09:08"
+								},
+								{
+									"key": "password",
+									"value": "kullu@123"
+								},
+								{
+									"key": "isGroup",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:43:59 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Message deleted for everyone"
+				}
+			]
+		},
+		{
+			"name": "localhost:8084/api/chat/clear-chat",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8084/api/chat/clear-chat?requester&otherUser&password&isGroup=false",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"chat",
+						"clear-chat"
+					],
+					"query": [
+						{
+							"key": "requester",
+							"value": null
+						},
+						{
+							"key": "otherUser",
+							"value": null
+						},
+						{
+							"key": "password",
+							"value": null
+						},
+						{
+							"key": "isGroup",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8084/api/chat/clear-chat",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/chat/clear-chat?requester=aksha&otherUser=MyGroup&password=aksha@123&isGroup=true",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"chat",
+								"clear-chat"
+							],
+							"query": [
+								{
+									"key": "requester",
+									"value": "aksha"
+								},
+								{
+									"key": "otherUser",
+									"value": "MyGroup"
+								},
+								{
+									"key": "password",
+									"value": "aksha@123"
+								},
+								{
+									"key": "isGroup",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "22"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Dec 2025 10:46:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Chat cleared for aksha"
+				}
+			]
+		}
+	]
+}
