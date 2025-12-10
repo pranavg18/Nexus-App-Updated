@@ -89,7 +89,7 @@ This is a high-level view of what our backend application looks like on Swagger 
 
 See the full walkthrough of Nexus App:
 
-[full-demo-video.mp4](https://github.com/user-attachments/assets/3e882b10-bbc9-42f3-a77c-419ba3fb42ee)
+[NexusApp-DemoVideo.mp4](https://github.com/user-attachments/assets/334d5b3b-aa4d-44fc-b1d2-7ae8e5123e25)
 
 ## Installation
 Run the following commands in terminal.
